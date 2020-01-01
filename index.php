@@ -24,7 +24,7 @@ $http->on('request',function (Request $request,Response $response) use ($dispatc
            $response->end();
            break;
         case FastRoute\Dispatcher::METHOD_NOT_ALLOWED;
-           $response->status('405');
+           $response->status(405);
            $response->end();
            break;
         case FastRoute\Dispatcher::FOUND;
