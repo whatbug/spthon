@@ -1,7 +1,7 @@
 # spthon
-基于swoole服务开发http框架
+Base on http server of swoole framework
 
-开启服务后台运行  php spthon start -d
+Enable services to run  php spthon start -d
 
-常见问题
-1.启动失败 这种情况使用php -m查看是否安装swoole扩展
+Asking
+1.failed to run, which can run shell command 'php -m' to checkout installed swolle extension already please.
